@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+
+#header{
+    display: flex;
+    background-color: red;
+    width:100%;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+}
+
+.choices{
+    display: flex;
+    gap:60px;
+    margin: 30px;
+    
+}
+
+img{
+    height:250px;
+    width:250px;
+    object-fit: cover;
+    border-radius: 100%;   
+    
+    
+}
+
+#BF, #GF, #Bestie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    height:250px;
+    width:250px;
+    border-radius: 100%;  
+
+}
+
+#BF:hover, #GF:hover, #Bestie:hover{
+    border: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: inset;
+    transform: scale(1.05);
+    opacity: 0.5;
+}
+
+#scoreboard{
+    display: flex;
+    gap:0px; 
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+    border-color: beige;
+    border-style: inset;
+    
+}
+
+
+    
+
+#User, #Comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: beige;
+    border-style: inset;
+    width:200px
+}
+
+#message{
+    margin-top: 30px;
+    height: max-content;
+    width: max max-content;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+   border-radius: 40px;
+    
+
+}
+
+
+
