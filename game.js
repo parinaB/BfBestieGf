@@ -19,7 +19,7 @@ const showWin=(userWin, userchoice,compchoice) => {
     else{
         compScore++; 
         compscorep.innerText=compScore; 
-       outcome.innerText=`Suck it ! ${compchoice} beats ${userchoice} `; 
+       outcome.innerText=` Face it ! ${compchoice} beats ${userchoice} `; 
         outcome.style.backgroundColor= "yellow"; 
         outcome.style.color="red";  
         
