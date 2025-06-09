@@ -10,7 +10,7 @@ const showWin=(userWin, userchoice,compchoice) => {
     if(userWin){
         userScore++; 
         userscorep.innerText=userScore; 
-        outcome.innerText=`Lucky bitch ! ${userchoice} beats ${compchoice}`; 
+        outcome.innerText=`Lucky ! ${userchoice} beats ${compchoice}`; 
         outcome.style.backgroundColor= "Green"; 
         outcome.style.color="white"; 
        
